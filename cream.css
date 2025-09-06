@@ -4,10 +4,13 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
+   
+    
 }
 
 body {
     background-color: gray;
+    
 }
 
 header {
@@ -441,4 +444,280 @@ footer{
     font-weight: 900;
     font-size: 20px;
     color: black;
+}
+
+@media screen and (max-width: 480px) { 
+    .se1 {
+        gap: 20px;
+    justify-content: center;
+    height: 550px;
+    
+
+}
+    header {
+    height: 80px;
+  width:100% ;
+    
+}
+
+h1{
+    
+    font-weight: 900;
+    font-size: 15px;
+}
+
+nav {
+   
+    gap: 10px;
+    font-size: 9px;
+    
+}
+.ib{
+     width: 50px;
+    height: 20px;
+    font-size: 10px;
+    padding: 5px;
+
+
+}
+.intro{
+    height: 300px;
+    width: 300px;
+    margin-top: 80px;
+    margin-left: 0px;
+    gap: 20px;
+}
+
+.intro1 {
+    font-size: 20px;
+    font-weight: 900;
+    color: yellow;
+   
+
+}
+
+.introdec {
+    font-size: 10px;
+    color: aliceblue;
+
+
+}
+
+.ib1 {
+    width: 130px;
+    height: 23px;
+     font-size: 9px;
+   
+    padding: 5px;
+    margin: 0;
+    margin-top: 0;
+   
+    font-weight: 700;
+    
+}
+
+.ib2 {
+     width: 130px;
+    height: 20px;
+     font-size: 9px;
+   
+    padding: 5px;
+    margin: 0;
+    margin-top: 10px;
+   
+    font-weight: 700;
+}
+
+
+
+
+#ph1 {
+    height: 180px;
+    width: 130px;
+    border-radius: 30px;
+}
+
+.introphoto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    width: 300px;
+    margin-top: 80px;
+}
+
+.threephoto {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    object-fit: cover;
+
+
+}
+
+.threephoto img {
+    height: 50px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+.logo {
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+    
+    
+
+}
+/* .se2 {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 10px;
+    padding: 5px;
+    flex-direction: column;
+ /* * */
+
+/* } */
+.p2intro{
+     font-size: 40px;
+    font-weight: 900;
+   
+
+
+}
+
+.box3 {
+   
+    gap: 10px;
+    flex-direction: column;
+}
+
+.box {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: auto;
+    width: 450px;
+    
+
+}
+.boxintro{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.intro3 {
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    padding: 5px;
+   /* margin-bottom: 10px; */
+   
+  
+}
+.photo4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+
+}
+.photo4 img{
+    border-radius: 30px; 
+    height: 190px;
+    width: 90px;
+    object-fit: cover;
+
+}
+.page3dec{
+    color: white;
+    font-size: 9px;
+    font-weight: 500;
+    /* margin: 5px;
+    margin-top: 10px; */
+}
+.se3{
+    gap: 30px;
+}
+
+.intro4{
+    font-size: 40px;
+}
+.bar{
+    height: auto;
+}
+.ab{
+    font-size: 10px;
+    height: 23px;
+    width: 50px;
+}
+.p4subintro{
+    font-size: 40px;
+}
+.p4dec{
+    font-size: 8px;
+    text-align: center;
+}
+.p4data img {
+    height: 200px;
+    width: 180px;
+}
+.p4data{
+
+}
+.se4{
+    justify-content: space-evenly;
+    height: 500px;
+   
+}
+.se5{
+    gap: 50px;
+    justify-content: center;
+}
+
+.intro5{
+  
+    width: 100%;
+   
+   
+    font-size: 55px;
+    text-align: center;
+}
+.box1{
+    gap: 30px;
+}
+.boxz{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.subintro5{
+font-size: 30px;
+}
+.intro6{
+    font-size: 25px;
+    text-align: center;
+}
+
+.p6{
+    height: 400px;
+    width: 400px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
 }
