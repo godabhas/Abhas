@@ -448,7 +448,7 @@ footer{
 
 @media screen and (max-width: 480px) { 
     .se1 {
-        gap: 20px;
+        gap: 10px;
     justify-content: center;
     height: 550px;
     
@@ -484,7 +484,8 @@ nav {
     height: 300px;
     width: 300px;
     margin-top: 80px;
-    margin-left: 0px;
+    margin-left: 10px;
+    
     gap: 20px;
 }
 
@@ -546,6 +547,7 @@ nav {
     height: 300px;
     width: 300px;
     margin-top: 80px;
+ 
 }
 
 .threephoto {
@@ -588,7 +590,7 @@ nav {
 
 /* } */
 .p2intro{
-     font-size: 40px;
+     font-size: 30px;
     font-weight: 900;
    
 
@@ -604,9 +606,13 @@ nav {
 .box {
     background-color: rgba(0, 0, 0, 0.4);
     height: auto;
-    width: 450px;
+    width: 300px;
+    margin: 10PX;
     
 
+}
+.a{
+    font-size: 10px;
 }
 .boxintro{
     font-weight: 700;
@@ -615,7 +621,7 @@ nav {
 
 
 .intro3 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
     color: white;
     padding: 5px;
@@ -627,13 +633,13 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    gap: 5px;
+    gap: 3px;
 
 }
 .photo4 img{
     border-radius: 30px; 
     height: 190px;
-    width: 90px;
+    width: 60px;
     object-fit: cover;
 
 }
@@ -645,7 +651,8 @@ nav {
     margin-top: 10px; */
 }
 .se3{
-    gap: 30px;
+    gap: 1  0px;
+   
 }
 
 .intro4{
@@ -660,15 +667,16 @@ nav {
     width: 50px;
 }
 .p4subintro{
-    font-size: 40px;
+    font-size: 35px;
 }
 .p4dec{
-    font-size: 8px;
+    font-size: 7px;
     text-align: center;
+    margin: 0px;
 }
 .p4data img {
     height: 200px;
-    width: 180px;
+    width: 130px;
 }
 .p4data{
 
@@ -688,7 +696,7 @@ nav {
     width: 100%;
    
    
-    font-size: 55px;
+    font-size: 40px;
     text-align: center;
 }
 .box1{
@@ -700,7 +708,7 @@ nav {
     text-align: center;
 }
 .subintro5{
-font-size: 30px;
+font-size: 18px;
 }
 .intro6{
     font-size: 25px;
